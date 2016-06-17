@@ -1,0 +1,310 @@
+html,body,div,ul,li,a{margin: 0;  padding: 0;  font-family:"Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;  font-size: 14px; -webkit-font-smoothing: antialiased; }
+#outer{position: relative}
+ul,li,dd,dt{list-style: none; }
+h1,h2,h3,h4,h5,h6{
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 323px;
+    background-color: #00b38a;
+}
+.header a{
+    position: absolute;
+    top: 70px;
+    left: 136px;
+    display: inline-block;
+    width: 128px;
+    height: 54px;
+    background: url("../img/logo_reg.png") left top no-repeat;
+}
+.content_box{
+    position: relative;
+    width: 556px;
+    margin: -168px auto 0 auto;
+    padding: 50px 47px 60px 57px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+    /*border: 1px solid red;*/
+    z-index: 1;
+}
+.content_box .left_area {
+    width: 300px;
+    margin-right: 46px;
+}
+.content_box .form_head{
+    position: relative;
+    z-index: 1;
+    height: 33px;
+    margin-bottom: 29px;
+    border-bottom: 1px solid #ebebeb;
+}
+.form_head li{
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 33px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+
+}
+.form_head li.active{
+    color: #00b38a;
+}
+.form_head li i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    font-style: normal;
+    padding-right:3px;
+}
+.form_head li i.phone{background: url("../img/icon-phone.png") top left no-repeat;}
+.form_head li.active i.phone{background: url("../img/icon-phone-active.png") top left no-repeat;}
+.form_head li i.email{background: url("../img/icon-mail.png") top left no-repeat;}
+.form_head li.active i.email{background: url("../img/icon-mail-active.png") top left no-repeat;}
+
+.content_box .form_head .tab_active {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #00b38a;
+    width: 150px;
+    height: 1px
+}
+.content_box .input {
+    width: 272px;
+}
+.input_item {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.content_box .input_group>input.first_child {
+    width: 162px
+}
+
+.content_box .input_group>input.last_child {
+    font-size: 14px;
+    width: 110px;
+    padding: 0
+    line-height: 46px;
+    height: 46px;
+    border: none;
+}
+.btn_outline{
+    width: 140px;
+    margin-top: 0;
+    margin-right: 15px;
+    color: #999;
+    border:1px solid #dce4e6;
+    font-size: 14px;
+    height:46px;
+    line-height: 46px;
+    background-color: transparent;
+}
+.btn_outline.last_child{
+    margin-right: 0px;
+}
+.btn_block{
+    display: block;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    border:none;
+    font-size: 16px;
+}
+.btn_active{
+    color: #fff;
+    border-color: #00b38a;
+    background-color: #00b38a;
+}
+.input_tips {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 5px;
+    line-height: 18px;
+    padding-left: 20px;
+    color: #fd5f39;
+    background: url(https://www.lgstatic.com/passport/static/common/static/img/info_5a35a92.png) left center no-repeat
+}
+
+.input,.dropbtn {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    height: 44px;
+    line-height: 1;
+    line-height: 44px\9;
+    padding-right: 13px;
+    padding-left: 13px;
+    vertical-align: middle;
+    color: #333;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    outline: 0;
+}
+
+.input::-moz-placeholder,.dropbtn::-moz-placeholder {
+    color: #b5b5b5;
+    opacity: 1
+}
+
+.input:-ms-input-placeholder,.dropbtn:-ms-input-placeholder {
+    color: #b5b5b5
+}
+
+.input::-webkit-input-placeholder,.dropbtn::-webkit-input-placeholder {
+    color: #b5b5b5
+}
+
+.input_gray,.dropbtn_gray {
+    border-color: #f3f3f3;
+    background-color: #f3f3f3
+}
+
+.input_white,.dropbtn_white {
+    border-color: #f8f8f8;
+    background-color: #f8f8f8;
+}
+
+.input:focus,.dropbtn:focus {
+    border-color: #00b38a
+}
+
+.input_warning,.dropbtn_warning {
+    border-color: #ff4351
+}
+
+.input_group:after {
+    clear: both;
+    _overflow: hidden
+}
+
+.input_group input {
+    float: left
+}
+
+.input_group>input:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.input_group>input:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+.content_box .divider{
+    position: relative;
+}
+.content_box .divider img{
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 13px;
+    height: 414px;
+}
+.content_box .right_area {
+    width: 151px;
+    margin-left: 46px;
+    color: #777
+}
+
+.content_box .right_area h5 {
+    margin-top: 30px;
+    color: #777
+}
+
+.content_box .right_area .login_now {
+    display: inline-block;
+    height: 22px;
+    font-size: 16px;
+    color: #00b38a;
+    padding-right: 23px;
+    background: url(../img/icon-arrow-right.png) right center no-repeat
+}
+.vender_login {
+    margin-top: 10px
+}
+
+.vender_login li {
+    float: left;
+    width: 44px;
+    height: 43px;
+    margin-right: 9px
+}
+
+.vender_login li .vender_icon {
+    display: inline-block;
+    width: 44px;
+    height: 43px;
+    background-position: left top;
+    background-repeat: no-repeat
+}
+
+.vender_login li .icon_sina {
+    background-image: url(https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-sina_9cae1d9.png)
+}
+
+.vender_login li .icon_tencent {
+    background-image: url(https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-tecent_5870bd4.png)
+}
+
+.vender_login li .icon_wechat {
+    background-image: url(https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-wechat_12ea62f.png)
+}
+
+.vender_login li.last_child {
+    margin-right: 0
+}
+.content_box .qrcode {
+    margin-top: 80px
+}
+
+.content_box .qrcode img {
+    width: 124px;
+    height: 124px
+}
+.content_box .qrcode p {
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 6px
+}
+.slogan {
+    margin-top: 50px;
+    text-align: center;
+    color: #d1d1d1
+}
+
+.fl{
+    float: left;
+}
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table
+}
+.clearfix:after {
+    clear: both
+}
+.btn{
+    cursor: pointer;
+    font-family:"Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+}
+h4{
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
